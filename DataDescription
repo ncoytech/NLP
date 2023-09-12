@@ -1,0 +1,17 @@
+The data file consists of the reviews about a particular app from Play Store.
+Fields
+reviewId	: Review ID
+userName	: User Name
+userImage	: User Image
+review	: Review Text
+score	: Given rate 1 to 5
+thumbsUpCount	: Thumbs Up Count
+reviewCreatedVersion	: Version of the app reviewed at
+at  : date
+reply Content	: Content of the reply 
+repliedAt	:Replid date
+Sentiment	: Positive / Negative
+Sub Category  :	Review Category
+Sub Category_test  : Review Sub Category
+
+We are going to use two columns; review and sentiment in this project.
