@@ -1,0 +1,25 @@
+import pandas as pd
+
+data = pd.read_excel("nlp/canva_review.xlsx")
+data.shape() 
+output: (1500,13)
+
+data.head(3)
+output is the top 3 rows of the file
+
+data.loc[13,"review"]
+gives the review column of the 13.row. Don't forget the rows numbers start from 0.
+data.loc[13,"Sentiment"]
+
+How many do positive or negative reviews exists?
+Bar Plot of Sentiment
+import seaborn as sns
+sns.countplot(x="Sentiment", data=data)
+plt.show()
+
+data["Sentiment"].value_counts()
+Output: Positive    1032
+        Negative     468
+        Name: Sentiment, dtype: int64
+
+Bar Plot of 
